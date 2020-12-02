@@ -1,0 +1,18 @@
+[package]
+name = "chain"
+version = "0.1.0"
+authors = ["Bottom-Labs <bottomlabs@163.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+common = {path = "../common"}
+crypto = {path = "../crypto"}
+curve = {path = "../curve"}
+hash = {path = "../hash"}
+keystore = {path = "../keystore"}
+
+bitcoin = "0.21.0"
+byteorder = "1.2"
+failure = "0.1.5"
